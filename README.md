@@ -1,4 +1,4 @@
-# Ruby Conf AU Site
+# Ruby Conf KE Site
 
 The full conference site is being delivered iteratively.
 
@@ -29,7 +29,7 @@ The 2015 styles are compiled and checked in. To recompile them:
 
 Site is hosted on Heroku
 
-    git@heroku.com:ruby-conf-au.git
+    git@heroku.com:ruby-conf-ke.git
 
 Deploy with command
 
