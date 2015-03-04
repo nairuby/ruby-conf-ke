@@ -1,2 +1,8 @@
-$display-font: "futura-pt", Futura, sans-serif;
-$body-font: "source-code-pro", "Source Code Pro", monospace;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+// @import url(http://fonts.googleapis.com/css?family=Alfa+Slab+One);
+
+
+$event-font: Open Sans;
+$display-font: Open Sans;
+$body-font: Open Sans;

@@ -1,6 +1,6 @@
 NM=./node_modules
-IN_STYLES=./styles
-OUT_STYLES=../public/2015/styles
+IN_STYLES= ./styles
+OUT_STYLES=../../public/2015/styles
 
 AUTOPREFIXER=$(NM)/autoprefixer/autoprefixer
 
