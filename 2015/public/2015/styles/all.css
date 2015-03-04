@@ -1,10 +1,9 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 .button, .small-button, .site-nav a, button {
   display: inline-block;
   font-size: 1.2rem;
   line-height: 1;
-  font-family: Open Sans;
+  font-family: "ss-social-regular", Futura, sans-serif;
   font-weight: 600;
   color: currentColor;
   text-transform: uppercase;
@@ -77,16 +76,16 @@
       padding-bottom: 5rem; } }
   .body-section h1, .body-section--reversed h1, .body-section--event-header h1, .content-page--event-header h1, .body-section--event-footer h1, .body-section--attending h1, .body-section--content h1, .body-section--sponsors h1, .body-section--venue h1, .content-page__header h1 {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 800;
     line-height: 1.1; }
   .body-section h2, .body-section--reversed h2, .body-section--event-header h2, .content-page--event-header h2, .body-section--event-footer h2, .body-section--attending h2, .body-section--content h2, .body-section--sponsors h2, .body-section--venue h2, .content-page__header h2 {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1rem; }
   .body-section h3, .body-section--reversed h3, .body-section--event-header h3, .content-page--event-header h3, .body-section--event-footer h3, .body-section--attending h3, .body-section--content h3, .body-section--sponsors h3, .body-section--venue h3, .content-page__header h3 {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 800;
     line-height: 1.1; }
   .body-section h2, .body-section--reversed h2, .body-section--event-header h2, .content-page--event-header h2, .body-section--event-footer h2, .body-section--attending h2, .body-section--content h2, .body-section--sponsors h2, .body-section--venue h2, .content-page__header h2 {
     /* Always the same as the container padding */ }
@@ -128,7 +127,7 @@
   color: white; }
   .body-section--reversed h1, .body-section--event-header h1, .content-page--event-header h1, .body-section--event-footer h1, .body-section--reversed h2, .body-section--event-header h2, .content-page--event-header h2, .body-section--event-footer h2, .body-section--reversed h3, .body-section--event-header h3, .content-page--event-header h3, .body-section--event-footer h3 {
     /* 800 is too heavy reversed, so we 600 instead */
-    font-weight: 400; }
+    font-weight: 600; }
 
 @keyframes down-arrow-animation {
   from {
@@ -137,10 +136,8 @@
     transform: translateY(10px); } }
 .body-section--event-header .body-section--event-header__event, .content-page--event-header .body-section--event-header__event {
   font-size: 2.5rem;
-  text-transform: uppercase;
-  font-family: Open Sans; }
-  .body-section--event-header .body-section--event-header__event > .event-title, .content-page--event-header .body-section--event-header__event > .event-title {
-    font-family: Open Sans; }
+  font-family: "ss-social-regular", Futura, sans-serif;
+  text-transform: uppercase; }
 .body-section--event-header .body-section--event-header__city, .content-page--event-header .body-section--event-header__city {
   font-size: 1.5rem;
   margin-bottom: 0; }
@@ -212,7 +209,7 @@
   max-width: none; }
 
 .body-section--event-footer__links {
-  font-family: Open Sans;
+  font-family: "ss-social-regular", Futura, sans-serif;
   text-transform: uppercase; }
   @media (min-width: 500px) {
     .body-section--event-footer__links {
@@ -318,7 +315,7 @@
   .body-section--previous-years h2 {
     margin-bottom: .2rem; }
   .body-section--previous-years h2, .body-section--previous-years li {
-    font-family: Open Sans;
+    font-family: "ss-social-regular", Futura, sans-serif;
     font-size: 1rem;
     text-transform: uppercase; }
   .body-section--previous-years ul, .body-section--previous-years li {
@@ -589,7 +586,7 @@
   list-style: none; }
 
 html {
-  font: 200 18px/1.3 Open Sans;
+  font: 200 18px/1.3 "suffix-mono-webfont", "Source Code Pro", monospace;
   background: #AB3030;
   color: white; }
   @media (min-width: 500px) {
@@ -600,12 +597,13 @@ html {
       font-size: 21px; } }
 
 h1, h2, h3 {
-  font-family: Open Sans;
+  font-family: "ss-social-regular", Futura, sans-serif;
   text-transform: uppercase; }
 
 a {
   text-decoration: none;
-  color: currentColor; }
+  color: currentColor;
+  font-weight: bold; }
   a:focus {
     outline: 1px dotted currentColor; }
   a:hover {
