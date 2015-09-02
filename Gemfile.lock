@@ -7,7 +7,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
     backports (3.6.0)
     capistrano (3.4.0)
       i18n
@@ -38,34 +37,16 @@ GEM
       httparty (~> 0.8)
       json
     daemons (1.1.9)
-    dotenv (0.11.1)
-      dotenv-deployment (~> 0.0.2)
-    dotenv-deployment (0.0.2)
     eventmachine (1.0.3)
-    excon (0.39.5)
     ffi (1.9.3)
-    foreman (0.75.0)
-      dotenv (~> 0.11.1)
-      thor (~> 0.19.1)
     haml (4.0.5)
       tilt
     hashie (1.2.0)
-    heroku (3.10.3)
-      heroku-api (~> 0.3.19)
-      launchy (>= 0.3.2)
-      netrc (~> 0.7.7)
-      rest-client (= 1.6.7)
-      rubyzip (= 0.9.9)
-    heroku-api (0.3.19)
-      excon (~> 0.38)
-      multi_json (~> 1.8)
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.6.11)
     json (1.8.1)
-    launchy (2.4.2)
-      addressable (~> 2.3)
     mail (2.6.1)
       mime-types (>= 1.16, < 3)
     mime-types (2.3)
@@ -75,7 +56,6 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
-    netrc (0.7.7)
     pony (1.10)
       mail (>= 2.0)
     rack (1.5.2)
@@ -87,9 +67,6 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rest-client (1.6.7)
-      mime-types (>= 1.16)
-    rubyzip (0.9.9)
     sass (3.4.2)
     sinatra (1.4.5)
       rack (~> 1.4)
@@ -110,7 +87,6 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
       rack (>= 1.0.0)
-    thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
     tzinfo (1.2.2)
@@ -128,9 +104,7 @@ DEPENDENCIES
   capistrano-rvm
   compass
   createsend (= 1.0.4)
-  foreman
   haml
-  heroku
   json
   pony
   sinatra

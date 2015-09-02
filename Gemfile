@@ -17,7 +17,5 @@ gem 'capistrano-rvm'
 gem 'capistrano-bundler'
 
 group :development do
-  gem "foreman"
-  gem "heroku"
   gem "sinatra-contrib", require: false
 end
