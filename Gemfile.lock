@@ -37,7 +37,7 @@ GEM
       httparty (~> 0.8)
       json
     daemons (1.1.9)
-    eventmachine (1.0.3)
+    eventmachine (1.0.8)
     ffi (1.9.3)
     haml (4.0.5)
       tilt
@@ -111,3 +111,6 @@ DEPENDENCIES
   sinatra-contrib
   thin
   zurb-foundation
+
+BUNDLED WITH
+   1.10.6
