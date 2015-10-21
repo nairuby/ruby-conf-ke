@@ -67,17 +67,32 @@ get '/2015' do
   haml :"2015/home", :layout => :"2015/layout"
 end
 
+# 2016
+
+get '/2016' do
+  @title = :home
+  @speaker = %w( keithpitty.jpg laurenvoswinkel.jpg philiparndt.jpg konstantingredeskoul.png johndalton.jpg shevauncoker.jpg seanmarcia.jpg josspaling.jpg erikmichaelsober.jpg johnbarton.jpg amywibowo.jpg
+    scottfeinberg.jpg sabrinaleandro.jpg ).sample
+  haml :"2016/home", :layout => :"2016/layout"
+end
+
 get '/2015/:page_name' do
   page_name = params[:page_name]
   @title = page_name
   haml :"2015/#{page_name}", :layout => :"2015/layout"
 end
 
+get '/2016/:page_name' do
+  page_name = params[:page_name]
+  @title = page_name
+  haml :"2016/#{page_name}", :layout => :"2016/layout"
+end
+
 # Generic
 
 get '/' do
   status_code 302
-  redirect '/2015'
+  redirect '/2016'
 end
 
 post '/subscribe' do

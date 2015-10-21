@@ -1,0 +1,41 @@
+!!!
+%html{lang: 'en'}
+  %head
+    /
+      Hello! This code is open-source, and MIT licensed. Go here to check out da code:
+      https://github.com/rubyaustralia/ruby-conf-au
+    %title= @page_title || "RubyConf Kenya 2015"
+    %meta{charset: "utf-8"}
+    %meta{content:'width=device-width, initial-scale=1.0', name:'viewport'}
+    %link{rel: "stylesheet", href: asset_path('2015/styles/all.css')}
+    %link{rel:'shortcut icon', href:'/images/2015/favicon.png'}
+    :javascript
+      (function(d) {
+        var config = { kitId: 'pcd5kcy', scriptTimeout: 3000 },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    %script{src:"https://js.tito.io/v1?v2", async: true}
+  %body
+    != yield
+
+    %section#contact.body-section--event-footer
+      %h2 Contact Us
+      %h3 Send us an email
+      %p.body-section--event-footer__links
+        %a(href="mailto:organisers@nairuby.org") organisers@nairuby.org
+      %h3 Elsewhere
+      %ul.body-section--event-footer__links
+        %li
+          %a(href="https://twitter.com/NairubyKE") Twitter
+          %a(href="https://www.facebook.com/nairubyke") Facebook
+          %a(href="https://www.youtube.com/channel/UCCoPB7mJ3jafGSHOEhcOrfw") Youtube
+      %h3 CFP (Call For Proposal)
+      %p.body-section--event-footer__links
+        %a(href="http://rubyconf-kenya-cfp.herokuapp.com/events/ruby-conference-kenya") Submit your proposal
+      %h3 Mailing List
+      %p.body-section--event-footer__links
+        %a(href="https://groups.google.com/forum/#!forum/nairuby") Join the mailing list
+
+    - # Fix for iOS vh/vw units
+    %script(src="/2015/javascripts/viewport-units-buggyfill.js")
+    %script window.viewportUnitsBuggyfill.init();
