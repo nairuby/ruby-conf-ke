@@ -273,7 +273,7 @@
     width: 100%;
     max-width: 250px;
     vertical-align: middle;
-    filter: brightness(140%) sepia(90%) hue-rotate(-10deg); }
+    /*filter: brightness(140%) sepia(90%) hue-rotate(-10deg);*/ }
 .body-section--sponsors .sponsors__sponsor--envato img {
   max-width: 350px; }
 .body-section--sponsors .sponsors__sponsor--redbubble img {
