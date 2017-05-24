@@ -395,7 +395,7 @@
     right: 0;
     width: 100%;
     border-radius: 50%;
-    filter: brightness(80%) sepia(90%) hue-rotate(-10deg);
+    /*filter: brightness(80%) sepia(90%) hue-rotate(-10deg);*/
     opacity: .8; }
 
 .speaker__links {
