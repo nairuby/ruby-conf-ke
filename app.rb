@@ -76,6 +76,13 @@ get '/2017' do
   haml :"2017/home", :layout => :"2017/layout"
 end
 
+get '/2016' do
+  @title = :home
+  @speaker = %w( keithpitty.jpg laurenvoswinkel.jpg philiparndt.jpg konstantingredeskoul.png johndalton.jpg shevauncoker.jpg seanmarcia.jpg josspaling.jpg erikmichaelsober.jpg johnbarton.jpg amywibowo.jpg
+    scottfeinberg.jpg sabrinaleandro.jpg ).sample
+  haml :"2016/home", :layout => :"2016/layout"
+end
+
 get '/2018' do
   @title = :home
   @speaker = %w( keithpitty.jpg laurenvoswinkel.jpg philiparndt.jpg konstantingredeskoul.png johndalton.jpg shevauncoker.jpg seanmarcia.jpg josspaling.jpg erikmichaelsober.jpg johnbarton.jpg amywibowo.jpg
@@ -83,11 +90,9 @@ get '/2018' do
   haml :"2018/home", :layout => :"2018/layout"
 end
 
-get '/2016' do
+get '/2019' do
   @title = :home
-  @speaker = %w( keithpitty.jpg laurenvoswinkel.jpg philiparndt.jpg konstantingredeskoul.png johndalton.jpg shevauncoker.jpg seanmarcia.jpg josspaling.jpg erikmichaelsober.jpg johnbarton.jpg amywibowo.jpg
-    scottfeinberg.jpg sabrinaleandro.jpg ).sample
-  haml :"2016/home", :layout => :"2016/layout"
+  haml :"2019/home", :layout => :"2019/layout"
 end
 
 get '/2015/:page_name' do
@@ -106,7 +111,7 @@ end
 
 get '/' do
   status_code 302
-  redirect '/2018'
+  redirect '/2019'
 end
 
 post '/subscribe' do
