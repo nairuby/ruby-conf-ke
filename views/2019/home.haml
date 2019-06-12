@@ -5,7 +5,7 @@
       %h1.body-section--event-header__event <span class="event-title">RubyConf</span> <span class="event-title">Kenya</span> <span class="two-oh-one-five"><span class="two">2</span><span class="oh">0</span><span class="one">1</span><span class="five">9<span></span>
       %h4 THEME: AGILE, OPEN SOURCE AND ENTREPRENEURSHIP
       %p On the 25th to 27th July 2019 leading Ruby developers from around the world will come together to share, inspire and learn.
-      %a(href="/pdfs/2018/Ruby%20Conference%20Schedule.pdf" target="_blank" ) View schedule.
+      -#%a(href="/pdfs/2018/Ruby%20Conference%20Schedule.pdf" target="_blank" ) View schedule.
       %h2.body-section--event-header__city <span>Nairobi</span> <span>Kenya</span>
       %h3.body-section--event-header__date 25<sup>th</sup>-27<sup>th</sup> July 2019
     .body-section--event-header__tickets
@@ -26,14 +26,18 @@
 %section#attending.body-section--attending
   %h2 Attending
 
-  %p RubyConf Kenya is an inclusive conference and as such strives to be <a href="/2015/policies#code">welcoming</a> and <a href="/2015/accessibility">accessible</a> to as many people as possible.
-
+  %p
+    RubyConf Kenya is an inclusive conference and as such strives to be
+    %a(href="#conduct") welcoming
+    and accessible to as many people as possible.
 %section#venue.body-section--venue
   %h2 Location
   %img.body-section__header-image{src:'/images/2016/bg.jpg'}
-  %p All the conference sessions will be held at iHub, 6th Floor, Senteu Plaza Galana/Lenana Road Junction · Nairobi
-  %p <a href="https://goo.gl/maps/ocFot5hS4iG2" class="button">Directions</a>
+  %p All the conference sessions will be held at iHub, 6th Floor, Senteu Plaza Galana/Lenana Road |
+  Junction · Nairobi |
 
+  %p
+    %a.button(href="https://goo.gl/maps/ocFot5hS4iG2") Directions
 %section#speakers.body-section--content
   %h2 Speakers
 
@@ -43,7 +47,10 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/all/speakers/sellu.jpeg" alt="Photo of Denis Sellu")
       %div.speaker__bio
-        %p I solve problems at CookiesHQ, a technical agency based in Bristol, UK. I’m a strategy game and fantasy fiction fan, and a coconut connoisseur. Coconut doesn’t ask questions, coconut understands.
+        %p I solve problems at CookiesHQ, a technical agency based in Bristol, UK. I’m a strategy |
+        game and fantasy fiction fan, and a coconut connoisseur. Coconut doesn’t ask questions, |
+        coconut understands.|
+
       %ol.speaker__links
         %li
           %a(href="https://twitter.com/TheCookiesHQ") @TheCookiesHQ
@@ -54,7 +61,11 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/all/speakers/abdelwahab.jpg" alt="Photo of Amr Abdelwahab")
       %div.speaker__bio
-        %p An African Egyptian native who crossed continents to work with his passion in digital environments. Amr's interests span technology, tech-communities, politics and politics in tech, all enriched through various software engineering roles in Egypt, Hungary and Germany.
+        %p An African Egyptian native who crossed continents to work with his passion in digital |
+        environments. Amr's interests span technology, tech-communities, politics and politics in |
+        tech, all enriched through various software engineering roles in Egypt, Hungary and |
+        Germany. |
+
       %ol.speaker__links
         %li
           %a(href="https://twitter.com/amrabdelwahab") @amrabdelwahab
@@ -63,7 +74,15 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/all/speakers/Vishal.jpeg" alt="Photo of Vishal Chandnani")
       %div.speaker__bio
-        %p Vishal spent most of his childhood in Dubai, UAE. He earned his Bachelor’s degree in Electronics and Telecommunications Engineering from Pune University (India) and his Master’s degree in Electrical Engineering from Syracuse University. Vishal started his professional career at Lucent Technologies (Bell Labs Innovations), where he developed and supported software for CDMA wireless communication systems. Prior to joining Def Method, Vishal worked at The Boeing Company, where he developed and supported software for the US Government Intelligence Community. Vishal enjoys going to the beach and loves family vacations.
+        %p Vishal spent most of his childhood in Dubai, UAE. He earned his Bachelor’s degree in |
+        Electronics and Telecommunications Engineering from Pune University (India) and his |
+        \Master’s degree in Electrical Engineering from Syracuse University. Vishal started his |
+        professional career at Lucent Technologies (Bell Labs Innovations), where he developed |
+        and supported software for CDMA wireless communication systems. Prior to joining Def |
+        Method, Vishal worked at The Boeing Company, where he developed and supported software for |
+        the US Government Intelligence Community. Vishal enjoys going to the beach and loves |
+        family vacations. |
+
       %ol.speaker__links
         %li
           %a(href="https://www.linkedin.com/in/vchandnani") linkedin.com/in/vchandnani
@@ -74,7 +93,12 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/2018/speakers/paul_o.png" alt="Photo of Paul Oguda")
       %div.speaker__bio
-        %p Paul Oguda is a Spatial Planner with bias towards Smart Cities, an autodidact Programmer who loves Ruby but plays with Elixir/Erlang , Python, and Javascript at times. Furthermore, he loves GIS and Mapping and when not playing with computers he relaxes by watching local and international football. Currently Paul works at Research Solutions Africa as a location analyst.
+        %p Paul Oguda is a Spatial Planner with bias towards Smart Cities, an autodidact |
+        Programmer who loves Ruby but plays with Elixir/Erlang , Python, and Javascript at times. |
+        Furthermore, he loves GIS and Mapping and when not playing with computers he relaxes by |
+        watching local and international football. Currently Paul works at Research Solutions |
+        Africa as a location analyst. |
+
       %ol.speaker__links
         %li
           %a(href="http://ogudah.com") ogudah.com
@@ -87,7 +111,13 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/2018/speakers/william.png" alt="Photo of William")
       %div.speaker__bio
-        %p William Wanyama is a software engineer at <a href="https://www.kloeckner-i.com/en/">Kloeckner.i</a> in Berlin, and a passionate (although remote) member of the Nairuby scene. Having spent a couple of years in Nairobi hustling and bustling with his own tech startup, he now likes to mentor and give back to other upcoming Ruby entrepreneurs in the region.
+        %p
+          William Wanyama is a software engineer at
+          %a(href="https://www.kloeckner-i.com/en/") Kloeckner.i
+          in Berlin, and a passionate (although remote) member of the Nairuby scene. Having spent |
+          a couple of years in Nairobi hustling and bustling with his own tech startup, he now |
+          likes to mentor and give back to other upcoming Ruby entrepreneurs in the region. |
+
       %ol.speaker__links
         %li
           %a(href="https://twitter.com/wanyama_man") @wanyama_man
@@ -98,7 +128,11 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/all/speakers/raounak.jpg" alt="Photo of Raounak Sharma")
       %div.speaker__bio
-        %p I am in the field of Web-development form past 3 years and I am loving it. Currently, I am a pursuing my undergraduation in Computer Science and working as a software developer in a company(Namyata). I provide services in Web-development and DevOps. When I am not coding you will probably find me on a football field.
+        %p I am in the field of Web-development form past 3 years and I am loving it. Currently, I |
+        am a pursuing my undergraduation in Computer Science and working as a software developer |
+        in a company(Namyata). I provide services in Web-development and DevOps. When I am not |
+        coding you will probably find me on a football field. |
+
       %ol.speaker__links
         %li
           %a(href="https://twitter.com/Raounaksharma") @Raounaksharma
@@ -124,7 +158,16 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/2018/speakers/sigu.jpg" alt="Photo of Sigu")
       %div.speaker__bio
-        %p An open source enthusiast who is a remote volunteer developer an open source community <a href="https://www.agileventures.org/">AgileVentures</a>. Currently a member of <a href="www.podiihq.com/">Podii</a> - software company based in Kisumu Kenya. Previously worked remotely as a coach and developer at the Swedish based academy and company Craft Academy. Been working with Ruby on Rails for a while and has a growing interest in Elixir and Phoenix.
+        %p
+          An open source enthusiast who is a remote volunteer developer an open source community
+          %a(href="https://www.agileventures.org/") AgileVentures.
+          Currently a member of
+          %a(href="www.podiihq.com/") Podii
+           - software company based in Kisumu Kenya.
+          Previously worked remotely as a coach and developer at the Swedish based academy and |
+          company Craft Academy. Been working with Ruby on Rails for a while and has a growing |
+          interest in Elixir and Phoenix. |
+
       %ol.speaker__links
         %li
           %a(href="https://twitter.com/s_igu") @s_igu
@@ -135,7 +178,20 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/2018/speakers/michael.jpg" alt="Photo of Michael")
       %div.speaker__bio
-        %p Michael Kimathi has over 7 years experience working in innovative ecosystems and building solutions notably with BlackBerry Developer Community, Nairuby, Masomomoja, GDG, Unbound, <a href="http://uonbi.ac.ke/">University of Nairobi</a>, StartupBlink, BantaMik and Atlassian. Currently, he is an entrepreneur learning from his past failures and developing better solutions which will impact the world we are living in. Previously, he was the Community Development Manager at C4DLab, where he worked closely with team C4DLab to develop innovation strategy, Partnership and change the University culture from the old status quo way of doing things to one at the forefront of innovation, he mentored startups, hosted events, organized entrepreneurship mechanics related talks with distinguished industry entrepreneurs.
+        %p
+          Michael Kimathi has over 7 years experience working in innovative ecosystems and |
+          building solutions notably with BlackBerry Developer Community, Nairuby, Masomomoja, GDG, |
+          Unbound, |
+
+          %a(href="http://uonbi.ac.ke/") University of Nairobi
+          , StartupBlink, BantaMik and Atlassian. Currently, he is an entrepreneur learning from |
+          his past failures and developing better solutions which will impact the world we are |
+          living in. Previously, he was the Community Development Manager at C4DLab, where he |
+          worked closely with team C4DLab to develop innovation strategy, Partnership and change |
+          the University culture from the old status quo way of doing things to one at the |
+          forefront of innovation, he mentored startups, hosted events, organized entrepreneurship |
+          mechanics related talks with distinguished industry entrepreneurs.
+
       %ol.speaker__links
         %li
           %a(href="https://twitter.com/m_k_global") @m_k_global
@@ -146,28 +202,50 @@
       %p.speaker__photo
         %img.speaker__photo__image(src="/images/2018/speakers/banta.png" alt="Photo of Bernard Banta")
       %div.speaker__bio
-        %p A Computer Scientist and true entrepreneur, he is the founder of Banta Technologies (BT). He has always been passionate about technology and how it can be used to leverage and transform Africa in the way we live, work, play and govern. When it comes to building, his ultimate goal is to make the world a better place. Banta is an entrepreneur and an engineer on the bleeding edge of technology.
+        %p
+          Currently the CTO and Co-founder at
+          %a(href="https://finplusgroup.com/") Finplus.
+          Banta is a computer scientist and an entrepreneur. He is passionate about technology |
+          and how it can be used to leverage and transform Africa in the way we live, work, play |
+          and govern. In his spare time, he'll often preside over executive and media talks on his |
+          pet subjects of entrepreneurship, innovation and transformation using technology. When |
+          it comes to building, his ultimate goal is to make the world a better place. He is an |
+          entrepreneur and an engineer on the bleeding edge of technology. |
+
       %ol.speaker__links
         %li
-          %a(href="http://bbanta.com/") bbanta.com
+          %a(href="https://finplusgroup.com/") finplusgroup.com
         %li
-          %a(href="http://twitter.com/bantab") @bantaB
+          %a(href="https://twitter.com/bantab") @bantaB
         %li
-          %a(href="http://github.com/banta") github.com/banta
+          %a(href="https://github.com/banta") github.com/banta
 %section#conference.body-section--content
   %h2 Conference
-  %p 25<sup>th</sup> to 27<sup>th</sup> July at iHub, 6th Floor, Senteu Plaza Galana/Lenana Road Junction · Nairobi.
-  %p <a href="https://goo.gl/maps/ocFot5hS4iG2" target="_blank" class="button">Directions</a>
+  %p
+    25
+    %sup th
+    to 27
+    %sup th
+    July at iHub, 6th Floor, Senteu Plaza Galana/Lenana Road Junction · Nairobi. |
+
+  %p
+    %a.button(href="https://goo.gl/maps/ocFot5hS4iG2" target="_blank") Directions
   -#%a(href="/pdfs/2019/Ruby%20Conference%20Schedule.pdf" target="_blank" ) View schedule.
 
 %section#sponsors.body-section--sponsors
   %h2 Sponsors
-  %p RubyConf KE Nairobi 2019 is made possible through the generous support of our sponsors. Please give them your support&nbsp;too.
+  %p RubyConf KE Nairobi 2019 is made possible through the generous support of our sponsors. |
+  Please give them your support&nbsp;too. |
+
   %h3 Supporters
   %ol.sponsors__sponsor-list.sponsors__sponsor-list--supporters
     %li.sponsors__sponsor.sponsors__sponsor--ihum
-      <a href="https://ihub.co.ke/"><img src="/images/2018/sponsors/ihub.png" alt="iHub Nairuby"></a>
+      %a(href="https://ihub.co.ke/")
+        %img(src="/images/2018/sponsors/ihub.png" alt="iHub Nairuby")
 
 %section#conduct.body-section--content
   %h2 Code of Conduct
-  %p RubyConf Kenya is run under the auspices of Ruby Kenya. You can view our <a href="http://nairuby.org/about/code-of-conduct/" target="_blank">code of conduct</a>. These rules must be followed by all attendees at all conference-related events.
+  %p
+    RubyConf Kenya is run under the auspices of Ruby Kenya. You can view our
+    %a(href="http://nairuby.org/about/code-of-conduct/" target="_blank") code of conduct.
+    These rules must be followed by all attendees at all conference-related events.
