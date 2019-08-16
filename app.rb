@@ -95,6 +95,11 @@ get '/2019' do
   haml :"2019/home", :layout => :"2019/layout"
 end
 
+get '/2020' do
+  @title = :home
+  haml :"2020/home", :layout => :"2020/layout"
+end
+
 get '/2015/:page_name' do
   page_name = params[:page_name]
   @title = page_name
@@ -111,7 +116,7 @@ end
 
 get '/' do
   status_code 302
-  redirect '/2019'
+  redirect '/2020'
 end
 
 post '/subscribe' do
