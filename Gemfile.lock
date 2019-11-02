@@ -39,7 +39,8 @@ GEM
     daemons (1.1.9)
     eventmachine (1.0.8)
     ffi (1.9.3)
-    haml (4.0.5)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     hashie (1.2.0)
     httparty (0.13.1)
@@ -83,6 +84,7 @@ GEM
       colorize (>= 0.7.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    temple (0.8.2)
     thin (1.6.2)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
