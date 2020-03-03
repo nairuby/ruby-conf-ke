@@ -95,9 +95,9 @@ get '/2019' do
   haml :"2019/home", :layout => :"2019/layout"
 end
 
-get '/2020' do
+get '/2021' do
   @title = :home
-  haml :"2020/home", :layout => :"2020/layout"
+  haml :"2021/home", :layout => :"2021/layout"
 end
 
 get '/2015/:page_name' do
@@ -116,7 +116,7 @@ end
 
 get '/' do
   status_code 302
-  redirect '/2020'
+  redirect '/2021'
 end
 
 post '/subscribe' do
