@@ -4,6 +4,12 @@ The full conference site is being delivered iteratively.
 
 ## Developing
 
+If you do not have [foreman](https://github.com/ddollar/foreman) install it using
+
+    gem install foreman
+
+but do not add it to your gem file.
+
 If this is this first time you are running the app:
 
     gem install bundler
