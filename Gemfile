@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.5'
+ruby '2.6.6'
 
 gem "activesupport", require: "active_support/inflector"
 gem "createsend", "1.0.4"
