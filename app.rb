@@ -116,7 +116,7 @@ end
 
 get '/' do
   status_code 302
-  redirect '/2021'
+  redirect '/2019'
 end
 
 post '/subscribe' do
