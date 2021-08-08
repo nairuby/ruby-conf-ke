@@ -3,8 +3,9 @@
   .body-section--event-header__inner
     %hgroup
       %h1.body-section--event-header__event
-        %span.event-title Ruby Conference
-        %span.event-title Africa
+        %span.event-title African
+        %span.event-title Ruby Mini-Conference
+        %br
         %span.two-oh-one-five
         %span.two 2
         %span.oh 0
@@ -12,28 +13,23 @@
         %span.oh 1
         %span>
       %h4 THEME: AGILE, OPEN SOURCE AND ENTREPRENEURSHIP
-      %p On the 8th to 10th July 2021 leading Ruby developers from around the world will come |
+      %p  On 12th August 2021 leading Ruby developers will come |
       together to share, inspire and learn. |
 
-      -#%a(href="/pdfs/2018/Ruby%20Conference%20Schedule.pdf" target="_blank" ) View schedule.
       %h2.body-section--event-header__city
-        %span Nairobi
-        %span Kenya
+        %span Online
       %h3.body-section--event-header__date
-        8
+        12
         %sup> th
-        &nbsp10
-        %sup> th
-        &nbspJuly 2021
+        &nbsp; August 2021
     .body-section--event-header__tickets
-      %a.button(href="#") Register Now! (Coming soon)
+      %a.button(href="https://www.meetup.com/Nairuby/events/czfgcsycclbqb/") Register Now
 
 %section.site-nav
 
   %a(href="#attending") Attending
-  %a(href="#venue") Location
+  %a(href="#schedule") Schedule
   %a(href="#speakers") Speakers
-  %a(href="#conference") Conference
   %a(href="#sponsors") Sponsors
   %a(href="#conduct") Code of Conduct
   %a(href="#contact") Contact
@@ -44,17 +40,74 @@
   %h2 Attending
 
   %p
-    Ruby Conference Africa is an inclusive conference and as such strives to be
+    You will need a recent internet browser.
+  %p
+    This is an inclusive conference that is
     %a(href="#conduct") welcoming
     and accessible to as many people as possible.
-%section#venue.body-section--venue
-  %h2 Location
-  %img.body-section__header-image{src:'/images/2016/bg.jpg'}
-  %p All the conference sessions will be held at iHub, 6th Floor, Senteu Plaza Galana/Lenana Road |
-  Junction · Nairobi |
 
   %p
     %a.button(href="https://goo.gl/maps/ocFot5hS4iG2") Directions
+
+%section#schedule.body-section--content
+  %h2 Conference Schedule
+  %table.table
+    %colgroup
+      <col style="background-color: #743C00;">
+      <col style="background-color: #743C00;">
+      <col style="background-color: #743C00;">
+      <col style="background-color: #743C00;">
+    %tr
+      %th Time (UTC+2)
+      %th Speaker
+      %th Title
+      %th Speaker Country
+    %tr
+      %td 15:00
+      %td Bernard Banta
+      %td Welcome
+      %td Kenya
+    %tr
+      %td 15:15
+      %td Kalebu Jordan
+      %td Opensource in Tanzania and Hacking Arduino + ESP32 with MRuby
+      %td Tanzania
+    %tr
+      %td 15:45
+      %td Promise Chukwuenyem
+      %td Seamless Ruby Application Deployment using Capistrano
+      %td Nigeria
+    %tr
+      %td 16:15
+      %td Michael Kimathi
+      %td Break
+      %td Kenya
+    %tr
+      %td 16:45
+      %td Marylene Sawyer
+      %td Building Modern Applications in Ruby: Fast, Efficient, Versatile, and Cost-Effective
+      %td South Africa
+    %tr
+      %td 17:15
+      %td Brooke Kuhlmann
+      %td Code Reviews
+      %td USA
+    %tr
+      %td 17:45
+      %td Raphael Noriode
+      %td Break
+      %td Nigeria
+    %tr
+      %td 18:15
+      %td Clemence Sedem
+      %td Reactive Rails
+      %td Ghana
+    %tr
+      %td 18:45
+      %td Raphael Noriode
+      %td Closing
+      %td Nigeria
+
 %section#speakers.body-section--content
   %h2 Speakers
 
@@ -105,19 +158,6 @@
           %a(href="https://twitter.com/bantab") @bantaB
         %li
           %a(href="https://github.com/banta") github.com/banta
-%section#conference.body-section--content
-  %h2 Conference
-  %p
-    8
-    %sup th
-    to 10
-    %sup th
-    July at iHub, 6th Floor, Senteu Plaza Galana/Lenana Road Junction · Nairobi. |
-
-  %p
-    %a.button(href="https://goo.gl/maps/ocFot5hS4iG2" target="_blank") Directions
-  %p
-    %a.button(href="#" target="_blank") View schedule (Coming soon)
 
 %section#sponsors.body-section--sponsors
   %h2 Sponsors
@@ -135,6 +175,7 @@
 %section#conduct.body-section--content
   %h2 Code of Conduct
   %p
-    RubyConf Kenya is run under the auspices of Ruby Kenya. You can view our
+    The African Ruby Mini-Conference is run under the auspices of Nairuby. You can view our
     %a(href="http://nairuby.org/about/code-of-conduct/" target="_blank") code of conduct.
     These rules must be followed by all attendees at all conference-related events.
+  %img.body-section__header-image{src:'/images/2016/bg.jpg'}
