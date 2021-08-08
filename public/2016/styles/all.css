@@ -641,4 +641,13 @@ h3 sup {
   margin-right: auto;
 }
 
+.table tr td {
+  background-color: rgba(224, 102, 102, 0.8);
+}
+
+.table tr th {
+  background-color: rgba(224, 102, 102, 0.8);
+}
+
+
 /*# sourceMappingURL=all.css.map */
