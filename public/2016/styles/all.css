@@ -635,4 +635,10 @@ h3 sup {
 .body-section--reversed .button, .body-section--event-header .button, .content-page--event-header .button, .body-section--event-footer .button, .body-section--reversed .small-button, .body-section--event-header .small-button, .content-page--event-header .small-button, .body-section--event-footer .small-button, .body-section--reversed .site-nav a, .site-nav .body-section--reversed a, .body-section--event-header .site-nav a, .site-nav .body-section--event-header a, .content-page--event-header .site-nav a, .site-nav .content-page--event-header a, .body-section--event-footer .site-nav a, .site-nav .body-section--event-footer a, .body-section--reversed button, .body-section--event-header button, .content-page--event-header button, .body-section--event-footer button {
   border-color: white; }
 
+.table {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=all.css.map */
