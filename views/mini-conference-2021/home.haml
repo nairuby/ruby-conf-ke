@@ -191,6 +191,9 @@
 
     %div.grid__cell.speaker
       %h3.speaker__name Brooke Kuhlmann
+      %p.speaker__photo
+        %img.speaker__photo__image(src="/images/all/speakers/BrookeKuhlmann.jpeg"
+        alt="Photo of Brooke Kuhlmann")
       %div.speaker__bio
         %p
           Brooke Kuhlmann has been a software engineer for over two decades
@@ -203,9 +206,15 @@
           %a(href="https://www.alchemists.io/screencasts" target="_blank") teaches,
           and contributes to
           %a(href="https://www.alchemists.io/projects/" target="_blank") open source software.
-          %br
-          %a(href="https://www.alchemists.io" target="_blank")
-            %img(src="/images/www.svg" height="32" alt="Web")
+        %ol.speaker__links
+          %li
+            %a(href="https://github.com/bkuhlmann" target="_blank")
+              %i.fa.fa-github
+              @bkuhlmann
+          %li
+            %a(href="https://www.alchemists.io" target="_blank")
+              %i.fa.fa-globe
+              alchemists.io
 
     %div.grid__cell.speaker
       %h3.speaker__name Marylene Sawyer
