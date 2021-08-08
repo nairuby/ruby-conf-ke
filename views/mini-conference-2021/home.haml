@@ -246,19 +246,29 @@
 
     %div.grid__cell.speaker
       %h3.speaker__name Clemence Sedem
+      %p.speaker__photo
+        %img.speaker__photo__image(src="/images/all/speakers/ClemenceSedem.jpeg"
+        alt="Photo of Clemence Sedem")
       %div.speaker__bio
         %p
           Clemence Sedem Agozi is a software engineer and cyber security researcher.
           He is currently working at
           %a(href="https://www.getinnotized.com/" target="_blank") getINNOtized GmbH
           as an associate software engineer.
-          %br
-          %a(href="https://github.com/clemsedem" target="_blank")
-            %img(src="/images/GitHub.png" height="32" alt="GitHub")
-          %a(href="https://twitter.com/efocoder" target="_blank")
-            %img(src="/images/Twitter.svg" height="32" alt="Twitter")
-          %a(href="https://gh.linkedin.com/in/clemsedem" target="_blank")
-            %img(src="/images/LinkedIn.png" height="32" alt="Linkedin")
+        %ol.speaker__links
+          %li
+            %a(href="https://twitter.com/efocoder" target="_blank")
+              %i.fa.fa-twitter
+              @efocoder
+          %li
+            %a(href="https://github.com/clemsedem" target="_blank")
+              %i.fa.fa-github
+              @clemsedem
+          %li
+            %a(href="http://clemsedem.herokuapp.com/" target="_blank")
+              %i.fa.fa-globe
+              clemsedem.herokuapp.com
+
 
 %section#sponsors.body-section--sponsors
   %h2 Sponsors
