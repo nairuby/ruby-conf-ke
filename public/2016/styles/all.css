@@ -401,7 +401,9 @@
 .speaker__links {
   margin-top: 1rem; }
   .speaker__links li {
-    margin-top: .25rem; }
+    list-style-type: none;
+    /*margin-top: .25rem;*/
+  }
 
 .speaker--more-to-come .speaker__photo__image {
   background-color: #ccc;
