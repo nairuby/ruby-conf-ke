@@ -218,6 +218,9 @@
 
     %div.grid__cell.speaker
       %h3.speaker__name Marylene Sawyer
+      %p.speaker__photo
+        %img.speaker__photo__image(src="/images/all/speakers/MaryleneSawyer.jpeg"
+        alt="Photo of Marylene Sawyer")
       %div.speaker__bio
         %p
           Mrs. Marylene Sawyer is a wife and mother who enjoys solving problems
@@ -227,11 +230,19 @@
           program at Microverse, a school for remote developers. |
           Marylene also holds a BSc in Computer Science from the University of the
           People, Pasadena, California.
-          %br
-          %a(href="https://github.com/Bluette1" target="_blank")
-            %img(src="/images/GitHub.png" height="32" alt="GitHub")
-          %a(href="http://www.marylene.tech/" target="_blank")
-            %img(src="/images/www.svg" height="32" alt="Web")
+        %ol.speaker__links
+          %li
+            %a(href="https://twitter.com/MaryleneSawyer" target="_blank")
+              %i.fa.fa-twitter
+              @MaryleneSawyer
+          %li
+            %a(href="https://github.com/Bluette1" target="_blank")
+              %i.fa.fa-github
+              @bluette1
+          %li
+            %a(href="http://www.marylene.tech/" target="_blank")
+              %i.fa.fa-globe
+              marylene.tech
 
     %div.grid__cell.speaker
       %h3.speaker__name Clemence Sedem
