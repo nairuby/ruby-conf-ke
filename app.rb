@@ -116,7 +116,42 @@ end
 
 get '/' do
   @title = :home
-  haml :"mini-conference-2021/home", :layout => :"mini-conference-2021/layout"
+  haml :"/2024/home", :layout => :"2024/layout"
+end
+
+get '/attending' do
+  @title = :attending
+  haml :"/2024/attending", :layout => :"2024/layout"
+end
+
+get '/location' do
+  @title = :location
+  haml :"/2024/location", :layout => :"2024/layout"
+end
+
+get '/speakers' do
+  @title = :speakers
+  haml :"/2024/speakers", :layout => :"2024/layout"
+end
+
+get '/conference' do
+  @title = :conference
+  haml :"/2024/conference", :layout => :"2024/layout"
+end
+
+get '/sponsors' do
+  @title = :sponsors
+  haml :"/2024/sponsors", :layout => :"2024/layout"
+end
+
+get '/code_of_conduct' do
+  @title = :code_of_conduct
+  haml :"/2024/code_of_conduct", :layout => :"2024/layout"
+end
+
+get '/contact' do
+  @title = :code_of_conduct
+  haml :"/2024/contact", :layout => :"2024/layout"
 end
 
 post '/subscribe' do
