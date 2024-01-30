@@ -9,6 +9,7 @@ gem "haml"
 gem "pony"
 gem "sinatra"
 gem "zurb-foundation"
+gem "rackup"
 
 # Deploy with capistrano
 gem 'capistrano',  '~> 3.4.0', group: :development
