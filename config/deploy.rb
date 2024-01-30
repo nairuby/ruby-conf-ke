@@ -4,7 +4,7 @@
 set :application, 'rubyconf.nairuby.org'
 set :repo_url, 'git@github.com:nairuby/ruby-conf-ke.git'
 set :log_level, :debug
-set :rvm_ruby_version, '2.3.0@rails'
+set :rvm_ruby_version, '3.0.2@rails'
 set :default_stage, 'production'
 set :ssh_options, {forward_agent: true}
 
