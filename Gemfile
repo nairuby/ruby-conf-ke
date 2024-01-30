@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '3.0.2'
 
-gem "activesupport", require: "active_support/inflector"
+# gem "activesupport", require: "active_support/inflector"
 gem "createsend", "1.0.4"
 gem "compass"
 gem "json"
