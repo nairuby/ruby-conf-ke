@@ -1,6 +1,6 @@
-set :deploy_to, '/var/www/rubyconf.nairuby.org'
+set :deploy_to, '/var/www/rubyconf.africa'
 set :branch, 'master'
 
-role :app, %w{ubuntu@138.68.144.183}
-role :web, %w{ubuntu@138.68.144.183}
-role :db,  %w{ubuntu@138.68.144.183}
+role :app, %w{ubuntu@rubyconf.africa}
+role :web, %w{ubuntu@rubyconf.africa}
+role :db,  %w{ubuntu@rubyconf.africa}
