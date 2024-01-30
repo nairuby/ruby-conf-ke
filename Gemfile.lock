@@ -17,11 +17,11 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (~> 1.3)
-    capistrano-bundler (2.1.0)
-      capistrano (~> 3.1)
-    capistrano-rvm (0.1.2)
+    capistrano-asdf (1.0.0)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    capistrano-bundler (2.1.0)
+      capistrano (~> 3.1)
     chunky_png (1.4.0)
     compass (1.0.3)
       chunky_png (~> 1.2)
@@ -128,12 +128,13 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   activesupport
   capistrano (~> 3.4.0)
+  capistrano-asdf
   capistrano-bundler
-  capistrano-rvm
   compass
   createsend (= 1.0.4)
   haml

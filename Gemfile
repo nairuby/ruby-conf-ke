@@ -13,7 +13,7 @@ gem "rackup"
 
 # Deploy with capistrano
 gem 'capistrano',  '~> 3.4.0', group: :development
-gem 'capistrano-rvm'
+gem 'capistrano-asdf'
 gem 'capistrano-bundler'
 
 group :development do
