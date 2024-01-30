@@ -10,6 +10,7 @@ gem "pony"
 gem "sinatra"
 gem "zurb-foundation"
 gem "rackup"
+gem "base64", "0.1.0"
 
 # Deploy with capistrano
 gem 'capistrano',  '~> 3.4.0', group: :development

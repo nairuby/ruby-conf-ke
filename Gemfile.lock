@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    base64 (0.1.0)
     capistrano (3.4.1)
       i18n
       rake (>= 10.0.0)
@@ -113,6 +114,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64 (= 0.1.0)
   capistrano (~> 3.4.0)
   capistrano-asdf
   capistrano-bundler
