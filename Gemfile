@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.6'
+ruby '3.0.2'
 
 gem "activesupport", require: "active_support/inflector"
 gem "createsend", "1.0.4"
@@ -9,7 +9,7 @@ gem "haml"
 gem "pony"
 gem "sinatra"
 gem "zurb-foundation"
-gem "thin"
+gem "rackup"
 
 # Deploy with capistrano
 gem 'capistrano',  '~> 3.4.0', group: :development
