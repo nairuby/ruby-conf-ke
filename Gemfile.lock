@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    base64 (0.2.0)
     capistrano (3.4.1)
       i18n
       rake (>= 10.0.0)
