@@ -128,10 +128,12 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   activesupport
   capistrano (~> 3.4.0)
+  capistrano-asdf
   capistrano-bundler
   capistrano-rvm
   compass
