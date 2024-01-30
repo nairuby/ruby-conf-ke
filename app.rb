@@ -150,7 +150,7 @@ get '/code_of_conduct' do
 end
 
 get '/contact' do
-  @title = :code_of_conduct
+  @title = :contact
   haml :"/2024/contact", :layout => :"2024/layout"
 end
 

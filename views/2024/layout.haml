@@ -26,7 +26,7 @@
       %a(href= "/conference") Conference
       %a(href= "/sponsors") Sponsors
       %a(href= "/code_of_conduct") Code of Conduct
-      %a(href= "#contact") Contact
+      %a(href= "/contact") Contact
 
     -# add the page body section below using yield
     != yield
@@ -35,9 +35,10 @@
     -# add the footer section below
     %section#contact.body-section--event-footer
       %h4 Contact Us
-      %h5 Send us an email
-      %p.body-section--event-footer__links
-        %a(href="mailto:organisers@nairuby.org") organisers@nairuby.org
+      %p You can reach us through the following channels
+      -# %h3 Coming Soon!
+      -# %p.body-section--event-footer__links
+      -#   %a(href="mailto:organisers@nairuby.org") organisers@nairuby.org
       -# %h4 Elsewhere
       -# %ul.body-section--event-footer__links
       -#   %li
